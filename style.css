@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(212, 205, 194);
+}
+.container{
+    width: 980px;
+    min-height: 800px;
+    margin: 0 auto;
+    border: 1px solid rgba(216, 139, 37, 0.644);
+    border-radius: 25px;
+}
+.logo{
+    display: block;
+    margin: 0 auto;
+}
+h1{
+    font-family: fantasy, sans-serif;
+    font-size: 48px;
+    text-align: center;
+}
+ul, .img-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+li{
+    list-style: none;
+}
+.img-block{
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+a{ 
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Lucida Handwriting", sans-serif;
+    color: rgb(37, 37, 37);
+}
